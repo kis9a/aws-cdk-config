@@ -1,0 +1,15 @@
+{
+  "app": "go mod download && go run main.go",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "Makefile",
+      "cdk*.json",
+      "go.mod",
+      "go.sum"
+    ]
+  }
+}
